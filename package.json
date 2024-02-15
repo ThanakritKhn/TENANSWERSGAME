@@ -2,6 +2,7 @@
   "name": "ten-answers",
   "private": true,
   "version": "0.0.0",
+    "homepage": "https:/ThanakritKhn.github.io/TENANSWERSGAME/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
