@@ -80,7 +80,7 @@ export const Easy = () => {
   }
 
   function refresh() {
-    window.location.reload();
+    window.location.reload(Easy);
   }
 
   return (
