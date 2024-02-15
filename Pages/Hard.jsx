@@ -149,8 +149,10 @@ export const Hard = () => {
           <img src={Winner} width="180px" height="180px" alt="Winner" />
           <div className="win">Youwin</div>
           <div className="answer" ref={answerCorrect}></div>
-          <div onClick={close_popup} className="newgame">
-            <a onClick={refresh}>Play Again</a>
+          <div onClick={close_popup}>
+            <button className="newgame" onClick={refresh}>
+              Play Again
+            </button>
           </div>
         </div>
         <div className="popup-lose" ref={popup_youlost}>
